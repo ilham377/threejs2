@@ -7,6 +7,7 @@ import { useFrame } from '@react-three/fiber';
 import { Decal, useGLTF, useTexture } from '@react-three/drei';
 
 import state from '../store';
+import { Material } from 'three';
 
 const Shirt = () => {
   const snap = useSnapshot(state);
